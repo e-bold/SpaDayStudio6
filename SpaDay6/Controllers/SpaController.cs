@@ -60,6 +60,7 @@ namespace SpaDay6.Controllers
                 }
             }
             ViewBag.appropriateFacials = appropriateFacials;
+            ViewBag.manipedi = manipedi;
             return View();
         }
     }
