@@ -1,0 +1,32 @@
+﻿@page
+@model MyApp.Namespace.AddModel
+@{
+}
+
+<h1>Add User</h1>
+
+
+<p>@ViewBag.error</p>
+
+<form method="post">
+   
+   <div class="form-group">
+      <label>
+         Username
+         <input type="text" name="username" class="form-control" value=@ViewBag.user>
+      </label>
+      <label>
+         Email
+         <input type="text" name="email" class="form-control" value=@ViewBag.email>
+      </label>
+      <label>
+         Password
+         <input type="text" name="password" class="form-control">
+      </label>
+      <label>
+         Confirm password
+         <input type="text" name="verify" class="form-control">
+      </label>
+   </div>  
+   <input type="submit" value="Submit" />
+</form>
