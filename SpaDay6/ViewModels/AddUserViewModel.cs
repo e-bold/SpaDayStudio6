@@ -19,6 +19,7 @@ public class AddUserViewModel
     [Compare("Password", ErrorMessage ="Passwords must match.")]
     public string? VerifyPassword { get; set; }
 
+    [Required(ErrorMessage = "Email is required")]
     [EmailAddress]
     public string? Email { get; set; }
 
