@@ -1,5 +1,5 @@
-﻿namespace SpaDay6.Models;
-
+﻿using System;
+namespace SpaDay6.Models;
 public class ErrorViewModel
 {
     public string? RequestId { get; set; }
